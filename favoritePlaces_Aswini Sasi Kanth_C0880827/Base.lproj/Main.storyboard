@@ -75,6 +75,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="tabView" destination="Gse-S6-JLS" id="FNn-2q-Jy7"/>
                         <segue destination="H1z-bt-Zl9" kind="show" identifier="editPlace" id="gFL-PC-ctq"/>
                     </connections>
                 </viewController>

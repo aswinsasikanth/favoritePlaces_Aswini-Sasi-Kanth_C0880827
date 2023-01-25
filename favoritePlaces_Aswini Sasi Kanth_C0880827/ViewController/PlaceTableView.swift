@@ -13,6 +13,9 @@ var placeList = [Place]()
 
 class PlaceTableView: UITableViewController {
     
+
+    @IBOutlet weak var tabView: UITableView!
+    
     var firstLoad = true
     
     func nonDeletedPlace() -> [Place]

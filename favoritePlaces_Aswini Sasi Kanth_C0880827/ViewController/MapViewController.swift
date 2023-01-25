@@ -38,9 +38,8 @@ class MapViewController: UIViewController {
             print(reversedGeoLocation.formattedCityCountry)
         }
         
-        // zoom out
-        let zoomRange = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 200000)
-        mapView.setCameraZoomRange(zoomRange, animated: true)
+//        let zoomRange = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 200000)
+//        mapView.setCameraZoomRange(zoomRange, animated: true)
     }
 }
 

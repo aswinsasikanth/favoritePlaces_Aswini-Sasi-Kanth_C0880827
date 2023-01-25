@@ -16,5 +16,4 @@ class Place: NSManagedObject{
     @NSManaged var deletedDate: Date!
     @NSManaged var latitude: Double
     @NSManaged var longitude: Double
-    
 }
